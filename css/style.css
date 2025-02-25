@@ -15,6 +15,7 @@ html {
     --black-color: #000000;
     --green-color: #01996D;
     --gray-color: #292929;
+    --dgreen-color: #245852;
 
 }
 
@@ -252,6 +253,41 @@ body {
 .image_3 {
     margin-top: -20px;
     margin-left: -5px;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
 }
 
+.section__3 {
+    margin: 0 auto;
+    max-width: 1920px;
+    min-height: 922px;
+    background-color: var(--dgreen-color);
+}
+
+.container_2 {
+    max-width: 1713px;
+    width: 100%;
+    margin: 0 207px 0px 206.16px;
+    display: flex;
+    gap: 28px;
+}
+
+.container_2 h1 {
+    padding-top: 310px;
+    color: var(--white-color);
+    margin-bottom: 6px;
+}
+
+.container_2 p {
+    font-size: 25px;
+    color: var(--white-color);
+    font-weight: 600;
+    line-height: 157%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 78px;
+    width: 570px;
+}
+
+.container_2 img {
+    padding-top: 227px;
+}
